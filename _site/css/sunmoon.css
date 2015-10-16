@@ -6,14 +6,14 @@ import url("./css/animation.css");
 	text-align: center;
 	background: #f1ede3;
 	width: 100%;
-	height: 800px;
+	height: 500px;
 	color: #555;
 
 	-webkit-transition: background 0.5s ease-in-out;
 		transition: background 0.5s ease-in-out;
 }
 .night .section {
-	background: #080d17;
+	/*background: #080d17;*/
   color: #e9e5d5;
 }
 .night #intro-text {
@@ -22,8 +22,8 @@ import url("./css/animation.css");
 .time-circle {
   position: relative;
   background: linear-gradient(to bottom, #BE4405, #F6C60C);
-  width: 400px;
-  height: 400px;
+  width: 440px;
+  height: 440px;
   border-radius: 50%;
   border: 4.5px solid #555;
   overflow: hidden;

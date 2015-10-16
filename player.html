@@ -59,9 +59,11 @@
         if (audio.playing == true && !$("#fullpage").hasClass("night")) {
           $("#fullpage").addClass("night");
           $("#switch").addClass("switched");
+          document.body.style.backgroundColor = "black";
         } else if (audio.playing == false && $("#fullpage").hasClass("night")) {
           $("#fullpage").removeClass("night");
           $("#switch").removeClass("switched");
+          document.body.style.backgroundColor = "white";
         }
       };
 
@@ -70,10 +72,12 @@
         if (!$("#fullpage").hasClass("night")) {
           $("#fullpage").addClass("night");
           $("#switch").addClass("switched");
+          document.body.style.backgroundColor = "black";
           audio.play();
         } else {
           $("#fullpage").removeClass("night");
           $("#switch").removeClass("switched");
+          document.body.style.backgroundColor = "white";
           audio.pause();
         }
       };
@@ -94,6 +98,7 @@
         if (audio.playing == true && !$("#fullpage").hasClass("night")) {
           $("#fullpage").addClass("night");
           $("#switch").addClass("switched");
+          document.body.style.backgroundColor = "black";
         }
 
       });
